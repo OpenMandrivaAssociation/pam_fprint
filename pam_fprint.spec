@@ -2,7 +2,7 @@ Name: pam_fprint
 Version: 0.2
 Release: %mkrel 1
 Source: http://prdownloads.sourceforge.net/fprint/pam_fprint-%{version}.tar.bz2
-Summary: Simple PAM module for fingerprint authentication.
+Summary: Simple PAM module for fingerprint authentication
 License: GPL
 Group: System/Libraries
 BuildRequires: libfprint-devel pam-devel
