@@ -5,6 +5,7 @@ Source: http://prdownloads.sourceforge.net/fprint/pam_fprint-%{version}.tar.bz2
 Summary: Simple PAM module for fingerprint authentication
 License: GPL
 Group: System/Libraries
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libfprint-devel pam-devel
 
 %description
