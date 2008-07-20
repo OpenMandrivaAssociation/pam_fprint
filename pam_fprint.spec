@@ -33,7 +33,7 @@ finger(s).
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
